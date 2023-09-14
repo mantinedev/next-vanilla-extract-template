@@ -20,3 +20,7 @@ export const title = style({
     },
   },
 });
+
+export const text = style({
+  color: "red",
+});
