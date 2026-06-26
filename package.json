@@ -6,7 +6,7 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "oxlint ."
+    "lint": "oxlint -c oxlint.config.mjs ."
   },
   "dependencies": {
     "@mantine/core": "9.4.0",
@@ -22,7 +22,9 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "^19.2.1",
     "@vanilla-extract/next-plugin": "^2.4.14",
-    "oxlint": "^1.58.0",
+    "oxc-config-mantine": "^1.0.0",
+    "oxfmt": "^0.55.0",
+    "oxlint": "^1.70.0",
     "postcss": "^8.5.5",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
